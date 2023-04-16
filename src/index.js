@@ -1,7 +1,11 @@
 const grasshoper = (number) => {
     
-    if(number === 0) return 0
-    
+    let sum = 0;
+
+    for(let i = 0; i < number; i++)
+        sum = sum + (i + 1);
+
+    return sum;
 }
 
 module.exports = {

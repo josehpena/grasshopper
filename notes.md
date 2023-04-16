@@ -8,4 +8,6 @@ For example (Input -> Output):
 
 1 # Think of a test case for when a zero is sent - OK
 
+2 # Should return number one when the number one is sent - OK
 
+3 # When the number two is sent, calculate the sum of 2 houses progressively starting from 1 - OK
